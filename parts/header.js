@@ -1,6 +1,5 @@
 $(function() {
-
-  var pos = $(".menu").offset().top - scroll;
+  pos = $(".menu").offset().top;
 
   function createMenuLinks(login) {
   	console.log("hello")

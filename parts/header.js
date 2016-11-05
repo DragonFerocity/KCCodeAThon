@@ -14,14 +14,16 @@ $(function() {
 
   $(window).scroll(function() {
     var scroll = $(document).scrollTop();
-    console.log(scroll);
-    console.log(pos);
     if ($(".menu").length > 0) {
-      if (scroll > pos) {
-        $(".menu").css({"position": "fixed"});
+      if (scroll >= pos) {
+        $(".header-text").css({"position": "fixed", "top": "70px"});
+        $(".menu").css({"position": "fixed", "top": "0px"});
+        $("#menubar").animate({"background-color": "transparent"}, 500);
       }
       else {
-        $(".menu").css({"position": "relative"});
+        $(".header-text").css({"position": "relative", "top": "0px"});
+        $(".menu").css({"position": "fixed", "top": "0px"});
+        $("#menubar").animate({"background-color": "rgba(32, 32, 32, 0.8)"}, 500);
       }
     }
   });

@@ -30,6 +30,7 @@ html, body {
 	border: none;
 	background-color: black;
 	height: 70px;
+  width: 100%;
 	margin-top: -20px;
 	padding-top: 5px;
 }
@@ -128,6 +129,10 @@ a, a:hover, a:visited {
 .menu {
 	background-color: black;
 	height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 
 .btn {

@@ -1,0 +1,153 @@
+/* KC Code-A-Thon */
+/* Missouri S&T Team */
+/* Ryan Andrews, Eli Gaitley, Gideon Walker, Michael Ward, Daniel Holtzclaw */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('bootstrap.min.css');
+
+/********************************************/
+/* HEADER STYLES                            */
+/********************************************/
+#menubar {
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #555555;
+}
+
+#content {
+	top: 80px;
+}
+
+#linkbar {
+	bottom: 0;
+	left: 16;
+	right: 16;
+	top: 128px;
+	height: 80px;
+  text-align: left;
+  line-height: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menulink {
+	font-family: serif;
+	text-shadow: 0px 2px 0px red;
+  box-shadow: 0px 0px 15px rga(255, 0, 0);
+	text-decoration: none;
+	color: white;
+  font-size: 24px;
+  font-family: "Raleway", serif;
+  padding: 0px 12px;
+  display: inline;
+}
+
+.menulink:hover {
+	text-shadow: 0px 0px 10px red;
+	text-decoration: none;
+}
+
+/********************************************/
+/* USER PROFILE STYLES                      */
+/********************************************/
+
+*{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.background-img{
+	background-image:
+}
+
+.see_box{
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.header_bg{
+	background-image: url(https://www.listaddicts.com/wp-content/uploads/2015/12/America.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100px;
+}
+
+.header{
+	font-size: 40px;
+	color: yellow;
+	text-align: center;
+	font-style: bold;
+	border-width: 0px;
+	border: none;
+}
+
+.profile_pic{
+	height: 80px;
+	width: 80px;
+}
+
+.time{
+	font-size: 14px;
+	font-style: italic;
+}
+
+/********************************************/
+/* ORGANIZTIONAL PROFILE STYLES             */
+/********************************************/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	height: 400px;
+	width: 100%;
+	background-image: url("../Pictures/tiger.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.name {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: black;
+	height: 70px;
+	margin-top: -20px;
+	padding-top: 5px;
+}
+
+.menu {
+	background-color: black;
+	height: 100px;
+}
+
+.btn {
+	width: 100%;
+}
+
+.menu .container {
+	padding-top: 25px;
+}
+
+.postBoard {
+	background-color: #BFFF00;
+	height: 1000px;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+.footer {
+  height: 120px;
+}

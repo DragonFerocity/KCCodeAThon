@@ -6,7 +6,8 @@ $(function() {
       $("body").prepend("<div id='menubar'></div>");
       $("#menubar").append("<div id='linkbar'></div>");
       $("#linkbar").append("<a href=\"\"><div class=\"menulink\">Home</div></a>");
-      console.log($("#linkbar").length);
+      $("#linkbar").append("<a href=\"\"><div class=\"menulink\">Location</div></a>");
+      $("body").append("<section id=\"content\"></section>");
   		/*var linkBar = document.getElementById("linkbar");
 
   		var newLink = document.createElement("a");

@@ -142,6 +142,10 @@ a {
 	padding-top: 25px;
 }
 
+.rating_head {
+  text-align: center;
+}
+
 .postBoard {
 	background-color: #BFFF00;
 	height: 1000px;

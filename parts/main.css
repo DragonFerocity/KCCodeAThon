@@ -178,3 +178,19 @@ a, a:hover, a:visited {
   text-align: center;
   padding-top: 100px;
 }
+
+/*********************************************/
+/*  User Profile Edit Page Styles            */
+/*********************************************/
+
+.row h1 {
+  text-align: center;
+}
+
+.row h2 {
+  padding-left: 50px;
+}
+
+.row p {
+  padding-left: 10px;
+}

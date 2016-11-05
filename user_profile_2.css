@@ -1,0 +1,42 @@
+*{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.background-img{
+	background-image: 
+}
+
+.see_box{
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.header_bg{
+	background-image: url(https://www.listaddicts.com/wp-content/uploads/2015/12/America.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100px;
+}
+
+
+
+.header{
+	font-size: 40px;
+	color: yellow;
+	text-align: center;
+	font-style: bold;
+	border-width: 0px;
+	border: none;
+}
+
+.profile_pic{
+	height: 80px;
+	width: 80px;
+}
+
+.time{
+	font-size: 14px;
+	font-style: italic;
+}

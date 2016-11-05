@@ -23,7 +23,7 @@ $(function() {
       else {
         $(".header-text").css({"position": "relative", "top": "0px"});
         $(".menu").css({"position": "relative", "top": "0px"});
-        $("#menubar").css({"background-color": "rgba(32, 32, 32, 0.8)"});
+        $("#menubar").css({"background-color": "rgba(53, 239, 110, 0.6)"});
       }
     }
   });

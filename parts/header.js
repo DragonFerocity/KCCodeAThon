@@ -1,4 +1,7 @@
 $(function() {
+
+  var pos = $(".menu").offset().top - scroll;
+
   function createMenuLinks(login) {
   	console.log("hello")
   	if (login)
@@ -13,13 +16,13 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(document).scrollTop();
     console.log(scroll);
-    console.log($(".menu").offset().top);
+    console.log(pos);
     if ($(".menu").length > 0) {
-      if (scroll > $(".menu").scrollTop()) {
+      if (scroll > pos) {
         $(".menu").css({"position": "fixed"});
       }
       else {
-        (".menu").css({"position": "relative"});
+        $(".menu").css({"position": "relative"});
       }
     }
   });

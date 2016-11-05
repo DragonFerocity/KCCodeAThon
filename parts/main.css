@@ -11,10 +11,10 @@ html, body {
 }
 
 #header {
-	height: 400px;
-	width: 100%;
-	background-image: url("../Pictures/tiger.jpg");
-	-webkit-background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-image: url("../Pictures/tiger.jpg");
+    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -140,6 +140,11 @@ a {
 
 .menu .container {
 	padding-top: 25px;
+}
+
+.rating_head {
+  text-align: center;
+  width: 100%;
 }
 
 .postBoard {

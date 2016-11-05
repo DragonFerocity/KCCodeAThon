@@ -160,13 +160,21 @@ a, a:hover, a:visited {
   height: 120px;
 }
 
-table, tr, th, td {
-  width: 100%;
-  height: 100%;
+.postBoard table, .postBoard th, .postBoard tr {
   text-align: center;
   border: 2px solid black;
 }
 
+.postBoard th, .postBoard tr {
+  width: 50%;
+}
+
+.postBoard table {
+  width: 100%;
+  height: 100%;
+}
+
 .posts, .schedule, .about, .contact_info {
   text-align: center;
+  padding-top: 30px;
 }

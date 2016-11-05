@@ -154,3 +154,8 @@ a, a:hover, a:visited {
 .footer {
   height: 120px;
 }
+
+#organization-schedule .postBoard table{
+  width: 100%;
+  text-align: center;
+}

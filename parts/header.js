@@ -10,5 +10,19 @@ $(function() {
   	}
   }
 
+  $(window).scroll(function() {
+    var scroll = $(document).scrollTop();
+    console.log(scroll);
+    console.log($(".menu").offset().top);
+    if ($(".menu").length > 0) {
+      if (scroll > $(".menu").scrollTop()) {
+        $(".menu").css({"position": "fixed"});
+      }
+      else {
+        (".menu").css({"position": "relative"});
+      }
+    }
+  });
+
   createMenuLinks(1);
 });

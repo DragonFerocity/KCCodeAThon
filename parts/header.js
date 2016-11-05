@@ -15,7 +15,7 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(document).scrollTop();
     if ($(".menu").length > 0) {
-      if (scroll >= pos) {
+      if (scroll >= pos-50) {
         $(".header-text").css({"position": "fixed", "top": "0px"});
         $(".menu").css({"position": "fixed", "top": "48px"});
         $("#menubar").css({"background-color": "transparent"});

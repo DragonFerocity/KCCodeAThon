@@ -1,0 +1,55 @@
+/* Programmer: Charles Gaitley					Date: 11/4/2016
+   File: OrgPageDesign.css							Purpose: KC Codathon
+   Description: This File Contains All Styling For OrgPage.html.
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {   
+	height: 400px;
+	width: 100%;
+	background-image: url("../Pictures/tiger.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.name {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: black;
+	height: 70px;
+	margin-top: -20px;
+	padding-top: 5px;
+}
+
+.menu {
+	background-color: black;
+	height: 100px;
+}
+
+.btn {
+	width: 100%;
+}
+
+.menu .container {
+	padding-top: 25px;
+}
+
+.postBoard {
+	background-color: #BFFF00;
+	height: 1000px;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+.footer {
+  height: 120px;
+}

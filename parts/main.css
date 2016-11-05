@@ -8,13 +8,12 @@
 html, body {
 	margin: 0;
 	padding: 0;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(220, 220, 220);
 }
 
 #header {
   height: 400px;
   width: 100%;
-  background-image: url("../Pictures/tiger.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,11 +23,12 @@ html, body {
 
 .header-text {
 	font-size: 40px;
+  font-family: "Raleway";
 	color: rgb(32, 32, 32);
 	text-align: center;
 	font-weight: bold;
   border: 0px solid transparent;
-	background-color: rgb(139, 239, 169);
+	background-color: rgb(53, 239, 110);
 	height: 48px;
   width: 100%;
   line-height: 48px;
@@ -126,7 +126,7 @@ a, a:hover, a:visited {
 /********************************************/
 
 .menu {
-	background-color: rgb(240, 240, 240);
+	background-color: rgb(48, 217, 110);
 	height: 100px;
   position: relative;
   top: 0px;

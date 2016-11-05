@@ -24,7 +24,7 @@
 
   <body>
     <section id="content">
-      <div id="header"></div>
+      <div id="header" style="background-image: url('../Pictures/MST.jpg')"></div>
 
       <div class="header-text">
         <h1>Place Name Here</h1>
@@ -34,16 +34,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-3 col-xs-3">
-              <button class="btn btn-primary btn-lg" type="button">Schedule</button>
+              <button class="btn btn-default btn-lg" type="button">Schedule</button>
             </div>
             <div class="col-md-3 col-xs-3">
-              <button class="btn btn-info btn-lg" type="button">Contact Info</button>
+              <button class="btn btn-default btn-lg" type="button">Contact Info</button>
             </div>
             <div class="col-md-3 col-xs-3">
-              <button class="btn btn-info btn-lg" type="button">About</button>
+              <button class="btn btn-default btn-lg" type="button">About</button>
             </div>
             <div class="col-md-3 col-xs-3">
-              <button class="btn btn-info btn-lg" type="button">Posts</button>
+              <button class="btn btn-default btn-lg" type="button">Posts</button>
             </div>
           </div>
         </div>

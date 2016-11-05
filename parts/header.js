@@ -3,8 +3,10 @@ $(function() {
   	console.log("hello")
   	if (login)
   	{
-  		$("#linkbar").append("<a href=\"\"><div class=\"menulink\">Home</div></a>");
-      console.log("HI!");
+      $("body").prepend("<div id='menubar'></div>");
+      $("#menubar").append("<div id='linkbar'></div>");
+      $("#linkbar").append("<a href=\"\"><div class=\"menulink\">Home</div></a>");
+      console.log($("#linkbar").length);
   		/*var linkBar = document.getElementById("linkbar");
 
   		var newLink = document.createElement("a");
@@ -23,5 +25,5 @@ $(function() {
   	}
   }
 
-  window.onload = function(){createMenuLinks(1);};
+  createMenuLinks(1);
 });

@@ -10,7 +10,7 @@ $(function() {
   	}
   }
 
-  /*$(window).scroll(function() {
+  $(window).scroll(function() {
     var scroll = $(document).scrollTop();
     console.log(scroll);
     console.log($(".menu").offset().top);
@@ -21,7 +21,7 @@ $(function() {
       else {
         (".menu").css({"position": "relative"});
       }
-    }*/
+    }
   });
 
   createMenuLinks(1);

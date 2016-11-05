@@ -155,7 +155,9 @@ a, a:hover, a:visited {
   height: 120px;
 }
 
-#organization-schedule .postBoard table{
+#organization-schedule .postBoard table {
   width: 100%;
+  height: 100%;
   text-align: center;
+  border: 2px solid black;
 }

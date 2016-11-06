@@ -84,7 +84,7 @@ tr:nth-child(odd):hover td {
 }
 
 #calendarheader{
-	width: calc(75% - 10px);
+	width: calc(75%);
 	background: #a9db80; /* Old browsers */
 	background: -moz-linear-gradient(top,  #a9db80 0%, #96c56f 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Chrome10-25,Safari5.1-6 */
@@ -140,5 +140,6 @@ tr:nth-child(odd):hover td {
 	font-family: 'Arimo', sans-serif;
 	font-weight: bold;
 	font-size: large;
-	text-shadow: 2px 2px 1px rgba(100,100,0,.5)
+	text-shadow: 2px 2px 1px rgba(100,100,0,.5);
+	width: 75%;
 }

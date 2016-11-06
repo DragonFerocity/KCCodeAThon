@@ -46,6 +46,7 @@
                         <option>Male</option>
                         <option>Female</option>
                         <option>Prefer not to Specify</option>
+                      </select>
                   </td>
                 </tr>
                 <tr>

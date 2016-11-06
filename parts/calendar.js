@@ -4,9 +4,15 @@ function pageLoad()
 	g_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 	createCalendar(undefined);
 
-	var organizer = true;
-	if (organizer)
+	g_organizer = true;
+	if (g_organizer)
 		createEventInput();
+	showEventMaker();
+}
+
+function showEventMaker() {
+	g_organizer = !g_organizer;
+	$("#eventtoggle")[0].style.display = (g_organizer ? "inline" : "none")
 }
 
 $(function() {

@@ -15,9 +15,9 @@
       <div id = "calendarheader">
         <div id = "m-y-container">
           <table id = "m-y-table"><tbody><tr>
-            <td id = "prevmonth"><img src = "Pictures/arrow-left.png" /></td>
+            <td id = "prevmonth"><img src = "Pictures/arrow-left.png" onclick = "(true, -1, 0)"/></td>
             <td id = "monthyear">month/year</td>
-            <td id = "nextmonth"><img src = "Pictures/arrow-left.png" /></td>
+            <td id = "nextmonth"><img src = "Pictures/arrow-left.png" onclick = "(true, 1, 0)" /></td>
           </tr></tbody></table>
         </div>
         <!--div id = "monthyear">month/year</div-->

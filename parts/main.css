@@ -256,6 +256,10 @@ a, a:hover, a:visited {
   padding-top: 60px;
 }
 
+.log_in_info {
+  margin: 0 auto;
+}
+
 /********************************************/
 /* ORGANIZTIONAL PROFILE STYLES             */
 /********************************************/

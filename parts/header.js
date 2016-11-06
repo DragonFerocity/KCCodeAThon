@@ -7,12 +7,13 @@ $(function() {
       if (scroll >= pos-50) {
         $(".header-text").css({"position": "fixed", "top": "0px"});
         $(".menu").css({"position": "fixed", "top": "48px"});
-        $("#menubar").css({"background-color": "transparent"});
+        $("#menubar, #menubar-white").css({"background-color": "transparent"});
       }
       else {
         $(".header-text").css({"position": "absolute", "top": "calc(100% - 100px - 48px)"});
         $(".menu").css({"position": "absolute", "top": "calc(100% - 100px)"});
         $("#menubar").css({"background-color": "rgba(53, 239, 110, 0.6)"});
+        $("#menubar-white").css({"background-color": "rgba(255, 255, 255, 0.8)"});
       }
     }
   });

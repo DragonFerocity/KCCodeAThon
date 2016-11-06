@@ -5,21 +5,21 @@
   <?php include("../parts/header.php"); ?>
 </head>
 <body>
-  <section id="content-top-margin">
-    <div class = "container-fluid text-center">
-      <!-- <div class = "row">
-        <div class = "col-md-12 header_bg">
-          <h1 class = "header_text">My Volunteer Profile</h1>
+  <section id="content">
+    <div id="top">
+      <h1>My Volunteer Profile</h1>
+    </div>
+    <div class="container" id="right-pic">
+      <div class="row">
+        <div class="col-md-4 col-xs-4">
+          <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" class = "img-square profile_pic" alt = "dat boi">
         </div>
-      </div> -->
-
+      </div>
+    </div>
+    <div class = "container">
       <div class = "row">
-        <div class = "col-md-2"></div>
-        <div class = "col-md-8">
-          <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" class = "img-circle profile_pic" alt = "dat boi">
-        </div>
-        <div class = "col-md-2">
-          <a href = "user_edit_profile.php" type = "button" class = "btn btn-primary">
+        <div class = "col-md-offset-6 col-md-2 col-xs-offset-6 col-xs-2">
+          <a href = "user_edit_profile.html" type = "button" class = "btn btn-primary">
             <span class = "glyphicon glyphicon-pencil"></span>
             Edit Profile
           </a>

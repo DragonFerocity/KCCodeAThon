@@ -5,7 +5,7 @@
 	background: rgba(53,236,110,1);
 	left:128;
 	right:128;
-	min-height: 640px; 
+	min-height: 640px;
 	width: 75%;
 	margin: auto;
 	border-radius: 0px;
@@ -15,6 +15,7 @@
 	-webkit-box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
 	-moz-box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
 	box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
+	table-layout: fixed;
 }
 
 .hc {
@@ -101,7 +102,7 @@ tr:nth-child(odd):hover td {
 
 .eventdata {
 	font-family: sans-serif !important;
-	height: 12px;
+	height: 24px;
 	padding: 3px;
 	margin: 3px;
 	float: left;
@@ -143,7 +144,7 @@ tr:nth-child(odd):hover td {
 #monthyear {
 	font-family: 'Arimo', sans-serif;
 	font-weight: bold;
-	font-size: large;
+	font-size: 22px;
 	text-shadow: 2px 2px 1px rgba(100,100,0,.5);
 	width: 75%;
 }

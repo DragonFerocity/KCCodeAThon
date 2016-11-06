@@ -1,8 +1,5 @@
 $(function() {
-  pos = $(".menu").offset().top;
-
   function createMenuLinks(login) {
-  	console.log("hello")
   	if (login)
   	{
       $("body").prepend("<div id='menubar'></div>");
@@ -11,7 +8,8 @@ $(function() {
       $("#linkbar").append("<a href=\"\"><div class=\"menulink\">Location</div></a>");
   	}
   }
-
+  if ($(".menu").length > 0)
+    pos = $(".menu").offset().top;
   $(window).scroll(function() {
     var scroll = $(document).scrollTop();
     if ($(".menu").length > 0) {

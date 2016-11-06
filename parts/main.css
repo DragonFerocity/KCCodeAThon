@@ -45,6 +45,13 @@ html, body {
   width: 100%;
 }
 
+#content-top-margin {
+    position: absolute;
+    left: 0px;
+    top: 96px;
+    width: 100%;
+}
+
 /********************************************/
 /* HEADER STYLES                            */
 /********************************************/

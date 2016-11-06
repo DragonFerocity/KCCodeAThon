@@ -18,7 +18,7 @@
       <h1>Log In To ...</h1>
     </div>
 
-    <section class="log_in_info">
+    <section class="log_in_info center-text">
       <form>
         <h3>Username:</h3>
         <input type="text" name="username"><br>

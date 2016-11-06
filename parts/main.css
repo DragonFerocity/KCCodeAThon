@@ -26,16 +26,16 @@ th {
   font-family: "Raleway";
   margin-bottom: 5px;
 }
-th.top-border {
+.top-border {
   border-top: 1px solid rgb(32, 32, 32);
 }
-th.right-border {
+.right-border {
   border-right: 1px solid rgb(32, 32, 32);
 }
-th.bottom-border {
+.bottom-border {
   border-bottom: 1px solid rgb(32, 32, 32);
 }
-th.left-border {
+.left-border {
   border-left: 1px solid rgb(32, 32, 32);
 }
 .table-outer {

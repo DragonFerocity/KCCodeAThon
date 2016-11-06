@@ -6,8 +6,9 @@
 </head>
 <body>
   <section id="content">
-    <div class="container" id="right-pic">
-      <div class="row">
+    <div class="top"></div>
+    <div class="container">
+      <div class="row" id="left">
         <div class="col-md-4 col-xs-4">
           <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" 
           class = "img-square profile_pic" alt = "dat boi" id="pic">
@@ -63,7 +64,7 @@
               <td>Wednesday</td>
               <td>Thursday</td>
               <td>Friday</td>
-              <td>Satday</td>
+              <td>Saturday</td>
               <td>Sunday</td>
             </tr>
             <tr>

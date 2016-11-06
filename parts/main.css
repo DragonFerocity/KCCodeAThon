@@ -174,9 +174,17 @@ a, a:hover, a:visited {
 /* MAIN USER PROFILE STYLES                 */
 /********************************************/
 
+.top {
+  height: 200px;
+}
+
 #pic {
-  height: 600px;
+  height: 200px;
   width: 100%;
+}
+
+#left {
+  float: left;
 }
 
 /********************************************/

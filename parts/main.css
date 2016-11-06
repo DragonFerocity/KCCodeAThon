@@ -58,10 +58,10 @@ th {
 }
 
 #content-top-margin {
-    position: absolute;
-    left: 0px;
-    top: 96px;
-    width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+  width: 100%;
 }
 
 /********************************************/
@@ -168,6 +168,15 @@ a, a:hover, a:visited {
   border: 1px solid rgb(53, 239, 110);
   padding: 10px;
   width: 100px;
+}
+
+/********************************************/
+/* MAIN USER PROFILE STYLES                 */
+/********************************************/
+
+#pic {
+  height: 600px;
+  width: 100%;
 }
 
 /********************************************/

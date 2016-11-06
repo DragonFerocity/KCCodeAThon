@@ -12,13 +12,14 @@
           <h1 class = "header_text">My Volunteer Profile</h1>
         </div>
       </div> -->
+
       <div class = "row">
         <div class = "col-md-2"></div>
         <div class = "col-md-8">
           <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" class = "img-circle profile_pic" alt = "dat boi">
         </div>
         <div class = "col-md-2">
-          <a href = "user_edit_profile.html" type = "button" class = "btn btn-primary">
+          <a href = "user_edit_profile.php" type = "button" class = "btn btn-primary">
             <span class = "glyphicon glyphicon-pencil"></span>
             Edit Profile
           </a>

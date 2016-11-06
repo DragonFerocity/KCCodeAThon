@@ -24,13 +24,13 @@
 
   <body>
     <section id="content">
-      <div id="header" style="background-image: url('../Pictures/MST.jpg')"></div>
+      <div id="organization-header" style="background-image: url('../Pictures/MST.jpg')"></div>
 
-      <div class="header-text">
-        <h1>Place Name Here</h1>
+      <div class="header-text" style="top: calc(100% - 100px - 48px);">
+        <h1>Missouri University of Science and Technology</h1>
       </div>
 
-      <div class="menu">
+      <div class="menu" style="top: calc(100% - 100px);">
         <div class="container">
           <div class="row">
             <div class="col-md-3 col-xs-3">
@@ -85,6 +85,49 @@
         </div>
       </div>
 
+      <!-- Schedule Section -->
+      <section id="organization-schedule">
+        <div class="schedule">
+          <h1>Upcoming Events</h1>
+        </div>
+
+        <table id="organization-schedule-table" class="table-outer">
+          <tr>
+            <th class="center-text">Sunday</th>
+            <th class="center-text">Monday</th>
+            <th class="center-text">Tuesday</th>
+            <th class="center-text">Wednesday</th>
+            <th class="center-text">Thursday</th>
+            <th class="center-text">Friday</th>
+            <th class="center-text">Saturday</th>
+          </tr>
+          <tr>
+            <td class="table-cell-default center-text">
+              <div class="event" data-info="Come join us for an open house! From 2pm - 5pm. Free Food!">Open House</div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event" data-info="Happy Hour! Every Monday from 12pm to 3pm.">Happy Hour</div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event" data-info="Come join us during our yearly trash cleanup along a 1 mile stretch of Kings Highway! Starting at 9AM, lunch will be provided afterwards.">Green Mile Trash Cleanup</div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event" data-info="Event 1">Event 1</div>
+              <div class="event" data-info="Event 2">Event 2</div>
+              <div class="event" data-info="Event 3">Event 3</div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event"></div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event">Half Price for Kids and Teens</div>
+            </td>
+            <td class="table-cell-default center-text">
+              <div class="event"></div>
+            </td>
+        </table>
+      </section>
+
       <!-- Posts Section -->
       <section id="organiztion-posts">
         <div class="posts">
@@ -93,50 +136,6 @@
 
         <div class="postBoard">
           <p>Write Posts Here</p>
-        </div>
-      </section>
-
-      <!-- Schedule Section -->
-      <section id="organization-schedule">
-        <div class="schedule">
-          <h1>Schedule</h1>
-        </div>
-
-        <div class="postBoard">
-          <table>
-            <tr>
-              <th>Day</th>
-              <th>Events</th>
-            </tr>
-            <tr>
-              <td>Sunday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Monday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Tuesday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Wednesday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Thursday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>Place Events Here</td>
-            </tr>
-            <tr>
-              <td>Saturday</td>
-              <td>Place Events Here</td>
-            </tr>
-          </table>
         </div>
       </section>
 

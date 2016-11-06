@@ -5,97 +5,92 @@
   <?php include("../parts/header.php"); ?>
 </head>
 <body>
-  <section id="content">
-    <div class="top"></div>
-    <div class="container">
-      <div class="row">
-        <div class = "col-md-offset-10 col-md-2 col-xs-offset-10 col-xs-2">
-          <a href = "user_edit_profile.html" type = "button" class = "btn btn-primary">
-            <span class = "glyphicon glyphicon-pencil"></span>
-            Edit Profile
-          </a>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
-          <h2>My Info</h2>
-        </div>
-      </div>
-      <div class = "row">
-        <div class="col-md-4 col-xs-4">
-          <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" 
-          class = "img-square profile_pic" alt = "dat boi" id="pic">
-        </div>
-        <div class="col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
-          <table>
+  <section id="content-top-margin">
+    <table id="edit-user-info" class="table-outer">
+      <tr>
+        <td id="profile-pic" class="table-cell-default" style="background-image: url('default/default-profile-pic.png');"></td>
+        <td class="user-info" class="table-cell-default" rowspan="2">
+          <table id="user-info-table">
             <tr>
-              <td>First Name:</td>
-              <td>Enter First Name</td>
-              <td>Last Name:</td>
-              <td>Enter Last Name</td>
+              <th colspan="2">Eli Gaitley</th>
             </tr>
             <tr>
-              <td>Location:</td>
-              <td>Enter Location</td>
-              <td>Age:</td>
-              <td>Enter Age</td>
+              <td class="user-info-text">Home Location</td>
+              <td>Rolla, MO</td>
             </tr>
             <tr>
-              <td>Gender:</td>
-              <td>Enter Gender</td>
-              <td>Email:</td>
-              <td>Enter Email</td>
+              <td class="user-info-text">Age</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Gender</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Email</td>
+              <td>email@address.here</td>
+            </tr>
+            <tr>
+              <th colspan="2">My Availability</th>
+            </tr>
+            <tr>
+              <td class="user-info-text">Sunday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Monday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Tuesday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Wednesday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Thursday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Friday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="user-info-text">Saturday</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="2">My Skills</th>
+            </tr>
+            <tr>
+              <td class="user-info-text">Skills</td>
+              <td>
+                <ul>
+                  <li>Good at doing stuff</li>
+                  <li>Best chess player</li>
+                  <li>Dabbing</li>
+                  <li>Mad skillz</li>
+                  <li>Pro DJ</li>
+                  <li>Swagger</li>
+                </ul>
+              </td>
             </tr>
           </table>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
-          <h2>My Availability</h2>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
-          <table>
-            <tr>
-              <td>Monday</td>
-              <td>Tuesday</td>
-              <td>Wednesday</td>
-              <td>Thursday</td>
-              <td>Friday</td>
-              <td>Saturday</td>
-              <td>Sunday</td>
-            </tr>
-            <tr>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-              <td>Availability Put Here</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
-          <h2>My Skills</h2>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
-          <ol>
-            <li>Place Skill Here.</li>
-            <li>Place Skill Here.</li>
-            <li>Place Skill Here.</li>
-            <li>Place Skill Here.</li>
-            <li>Place Skill Here.</li>
-            <li>Place Skill Here.</li>
-          </ol>
-        </div>
-      </div>
-    </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="misc-info" class="table-cell-default">
+          <div>
+            <a href = "user_edit_profile.php" type = "button" class = "btn btn-primary">
+              <span class = "glyphicon glyphicon-pencil"></span>
+              Edit Profile
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
   </section>
 </body>
 </html>

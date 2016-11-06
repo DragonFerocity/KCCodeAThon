@@ -12,10 +12,10 @@
   <body>
     <section id="content-top-margin">
       <form>
-        <table id="edit-user-info">
+        <table id="edit-user-info" class="table-outer">
           <tr>
-            <td id="profile-pic" style="background-image: url('default/default-profile-pic.png');"></td>
-            <td class="user-info" rowspan="2">
+            <td id="profile-pic" class="table-cell-default" style="background-image: url('default/default-profile-pic.png');"></td>
+            <td class="user-info" class="table-cell-default" rowspan="2">
               <table id="user-info-table">
                 <tr>
                   <th colspan="2">About Me</th>
@@ -94,7 +94,7 @@
             </td>
           </tr>
           <tr>
-            <td id="misc-info">MORE INFO</td>
+            <td id="misc-info" class="table-cell-default">MORE INFO</td>
           </tr>
         </table>
       </form>

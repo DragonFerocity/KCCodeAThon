@@ -14,7 +14,7 @@
       <form>
         <table id="edit-user-info">
           <tr>
-            <td id="profile-pic"></td>
+            <td id="profile-pic" style="background-image: url('default/default-profile-pic.png');"></td>
             <td class="user-info" rowspan="2">
               <table id="user-info-table">
                 <tr>

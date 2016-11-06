@@ -17,40 +17,40 @@
         </div>
       </div>
       <div class = "row">
-        <div class = "col-md-offset-4 col-xs-offset-4 col-md-8 col-xs-8">
+        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
           <h2>My Info</h2>
         </div>
       </div>
       <div class = "row">
-        <div class = "col-md-offset-4 col-md-2 col-xs-offset-4 col-xs-2 static_list">
-          <p>First Name:</p>
-        </div>
-        <div class = "col-md-2 col-xs-2"><p>Dat</p></div>
-        <div class = "col-md-2 col-xs-2 static_list"><p>Last Name:</p></div>
-        <div class = "col-md-2 col-xs-2"><p>Boi</p></div>
-      </div>
-      <div class="row">
-        <div class = "col-md-offset-4 col-md-2 col-xs-offset-4 col-xs-2 static_list">
-          <p>Location:</p>
-        </div>
-        <div class = "col-md-2 col-xs-2"><p>Rolla MO</p></div>
-        <div class = "col-md-2 col-xs-2 static_list"><p>Age:</p></div>
-        <div class = "col-md-2 col-xs-2"><p>9000</p></div>
         <div class="col-md-4 col-xs-4">
           <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" 
           class = "img-square profile_pic" alt = "dat boi" id="pic">
         </div>
-      </div>
-      <div class="row">
-        <div class = "col-md-offset-4 col-md-2 col-xs-offset-4 col-xs-2 static_list">
-          <p>Gender:</p>
+        <div class="col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
+          <table>
+            <tr>
+              <td>First Name:</td>
+              <td>Enter First Name</td>
+              <td>Last Name:</td>
+              <td>Enter Last Name</td>
+            </tr>
+            <tr>
+              <td>Location:</td>
+              <td>Enter Location</td>
+              <td>Age:</td>
+              <td>Enter Age</td>
+            </tr>
+            <tr>
+              <td>Gender:</td>
+              <td>Enter Gender</td>
+              <td>Email:</td>
+              <td>Enter Email</td>
+            </tr>
+          </table>
         </div>
-        <div class = "col-md-2 col-xs-2"><p>Boi</p></div>
-        <div class = "col-md-2 col-xs-2 static_list"><p>Email:</p></div>
-        <div class = "col-md-2 col-xs-2"><p>datboi@meme.edu</p></div>
       </div>
       <div class = "row">
-        <div class = "col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
+        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
           <h2>My Availability</h2>
         </div>
       </div>

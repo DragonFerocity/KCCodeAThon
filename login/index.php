@@ -24,7 +24,7 @@
         <input type="text" name="username"><br>
         <h3>Password:</h3>
         <input type="text" name="password"><br>
-        <input type="submit">
+        <input type="submit" id="sub">
       </form>
     </section>
   </body>

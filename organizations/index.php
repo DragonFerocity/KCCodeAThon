@@ -8,18 +8,9 @@
 <html lang="en">
   <head>
     <title>KC Code-A-Thon</title>
-    <!-- JQuery From Google -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- JQuery UI from Google -->
-  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-    <!-- Header CSS -->
     <?php
-    echo "<link rel=\"stylesheet\" href=\"/parts/main.css?" . time() . "\">";
-    ?>
-    <!-- Javascript Header -->
-    <?php
-    echo "<script src=\"/parts/header.js?" . time() . "\"></script>";
-    ?>
+    $color = "white";
+    include("../parts/header.php"); ?>
   </head>
 
   <body>
@@ -37,13 +28,13 @@
               <button class="btn btn-default btn-lg" type="button">Schedule</button>
             </div>
             <div class="col-md-3 col-xs-3">
-              <button class="btn btn-default btn-lg" type="button">Contact Info</button>
-            </div>
-            <div class="col-md-3 col-xs-3">
               <button class="btn btn-default btn-lg" type="button">About</button>
             </div>
             <div class="col-md-3 col-xs-3">
               <button class="btn btn-default btn-lg" type="button">Posts</button>
+            </div>
+            <div class="col-md-3 col-xs-3">
+              <button class="btn btn-default btn-lg" type="button">Contact Info</button>
             </div>
           </div>
         </div>
@@ -91,15 +82,15 @@
           <h1>Upcoming Events</h1>
         </div>
 
-        <table id="organization-schedule-table" class="table-outer">
+        <table id="organization-schedule-table" class="table-outer table-responsive" style="width: 60% !important;">
           <tr>
-            <th class="center-text">Sunday</th>
-            <th class="center-text">Monday</th>
-            <th class="center-text">Tuesday</th>
-            <th class="center-text">Wednesday</th>
-            <th class="center-text">Thursday</th>
-            <th class="center-text">Friday</th>
-            <th class="center-text">Saturday</th>
+            <th class="center-text bottom-border">Sunday</th>
+            <th class="center-text bottom-border">Monday</th>
+            <th class="center-text bottom-border">Tuesday</th>
+            <th class="center-text bottom-border">Wednesday</th>
+            <th class="center-text bottom-border">Thursday</th>
+            <th class="center-text bottom-border">Friday</th>
+            <th class="center-text bottom-border">Saturday</th>
           </tr>
           <tr>
             <td class="table-cell-default center-text">
@@ -126,6 +117,17 @@
               <div class="event"></div>
             </td>
         </table>
+      </section>
+
+      <!-- About Section -->
+      <section id="organiztion-about">
+        <div class="about">
+          <h1>About Us</h1>
+        </div>
+
+        <div class="postBoard">
+          <p>Missouri University of Science and Technology (Missouri S&T) builds upon a heritage of discovery, creativity and innovation across all academic and research disciplines so that our community is inspired and ready to pursue and solve the world’s great challenges.</p>
+        </div>
       </section>
 
       <!-- Posts Section -->
@@ -164,17 +166,6 @@
               <td>(###) ###-####</td>
             </tr>
           </table>
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <section id="organiztion-about">
-        <div class="about">
-          <h1>About</h1>
-        </div>
-
-        <div class="postBoard">
-          <p>Write Info Here</p>
         </div>
       </section>
 

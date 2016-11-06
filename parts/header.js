@@ -1,13 +1,4 @@
 $(function() {
-  function createMenuLinks(login) {
-  	if (login)
-  	{
-      $("body").prepend("<div id='menubar'></div>");
-      $("#menubar").append("<div id='linkbar'></div>");
-      $("#linkbar").append("<a href=\"/\"><div class=\"menulink\">Home</div></a>");
-      $("#linkbar").append("<a href=\"\"><div class=\"menulink\">Location</div></a>");
-  	}
-  }
   if ($(".menu").length > 0)
     pos = Math.round($(".menu").offset().top/100)*100;
   $(window).scroll(function() {
@@ -28,11 +19,9 @@ $(function() {
 
   $("body").on("mouseover", ".event", function () {
     $("body").append("<div id=\"info-window\"></div>");
-    $("#info-window").html($(this).data("info"));
+    $("#info-window").html("<p>" + $(this).data("info") + "</p>");
     $("#info-window").css({ "left": ($(this).offset().left-50) + "px", "top": ($(this).offset().top+$(this).height()+12)  + "px" }).delay(300).fadeIn(300);
   }).on("mouseout", ".event", function () {
     $("#info-window").remove();
   });
-
-  createMenuLinks(1);
 });

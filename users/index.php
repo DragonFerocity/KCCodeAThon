@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
   <title>KC Code-A-Thon</title>
-  <?php include("../parts/header.php"); ?>
+  <?php include("../parts/header.php?2"); ?>
 </head>
 <body>
   <section id="content-top-margin">

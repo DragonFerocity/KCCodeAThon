@@ -18,12 +18,13 @@
       <h1>Log In To ...</h1>
     </div>
 
-    <section>
-      <form class="log_in_info">
-        <h6>Username:</h6><br>
+    <section class="log_in_info">
+      <form>
+        <h3>Username:</h3>
         <input type="text" name="username"><br>
-        <h6>Password:</h6>
-        <input type="text" name="password">
+        <h3>Password:</h3>
+        <input type="text" name="password"><br>
+        <input type="submit">
       </form>
     </section>
   </body>

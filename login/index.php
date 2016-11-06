@@ -15,9 +15,16 @@
 
   <body>
     <div class="log_head">
-      <h1>Welcome To ...! Please Log In Or Create An Account Now!</h1>
+      <h1>Log In To ...</h1>
     </div>
 
-    
+    <section>
+      <form class="log_in_info">
+        <h6>Username:</h6><br>
+        <input type="text" name="username"><br>
+        <h6>Password:</h6>
+        <input type="text" name="password">
+      </form>
+    </section>
   </body>
 </html>

@@ -32,7 +32,7 @@ else
           Username: <input type="text" placeholder="username or email" id="login-box"/>
           Password: <input type="password" placeholder="password" id="password-box"/>
         </div>
-        <a href="/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
+        <a href="/login/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
         <a href="/"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
       </div>
   </div>

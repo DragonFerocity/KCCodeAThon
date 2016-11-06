@@ -14,10 +14,10 @@
     <div id = "calendercontainer">
       <div id = "calendarheader">
         <div id = "m-y-container">
-          <table><tbody><tr>
-            <td id = "prevmonth">prev</td>
+          <table id = "m-y-table"><tbody><tr>
+            <td id = "prevmonth"><img src = "Pictures/arrow-left.png" /></td>
             <td id = "monthyear">month/year</td>
-            <td id = "nextmonth">next</td>
+            <td id = "nextmonth"><img src = "Pictures/arrow-left.png" /></td>
           </tr></tbody></table>
         </div>
         <!--div id = "monthyear">month/year</div-->

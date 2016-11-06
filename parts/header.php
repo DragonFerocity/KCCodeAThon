@@ -33,7 +33,7 @@ else
           Password: <input type="password" placeholder="password" id="password-box"/>
         </div>
         <a href="/login/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
-        <a href="/"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
+        <a href="/login/sign-up.php"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
       </div>
   </div>
 </div>

@@ -12,6 +12,10 @@ html, body {
   background-image: url("../Pictures/background.png?2");
 }
 
+input, button {
+  outline: none !important;
+}
+
 td {
   padding: 5px 8px 2px 8px;
   font-family: "Raleway";
@@ -134,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
 }
 
-#linkbar {
+#linkbar-left {
   bottom: 0;
   left: 16px;
   right: 16px;
@@ -142,6 +146,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 64px;
   text-align: left;
   line-height: 48px;
+  display: inline;
+}
+#linkbar-right {
+  bottom: 0;
+  left: 16px;
+  right: 16px;
+  top: 128px;
+  height: 64px;
+  text-align: right;
+  line-height: 48px;
+  display: inline;
+  float: right;
 }
 
 a, a:hover, a:visited {

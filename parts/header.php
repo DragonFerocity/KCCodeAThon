@@ -17,8 +17,12 @@
 
 <!-- HEADER LINKS -->
 
-  <div id="linkbar">
-      <a href="/\"><div class="menulink">Home</div></a>
+  <div id="linkbar-left">
+      <a href="/"><div class="menulink">Home</div></a>
+      <a href="/"><div class="menulink">Location</div></a>
+  </div>
+  <div id="linkbar-right">
+      <a href="/"><div class="menulink">Home</div></a>
       <a href="/"><div class="menulink">Location</div></a>
   </div>
 </div>

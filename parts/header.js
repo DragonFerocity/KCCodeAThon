@@ -1,4 +1,7 @@
 $(function() {
+
+  $("#password-box").parent("div").hide();
+
   if ($(".menu").length > 0)
     pos = Math.round($(".menu").offset().top/100)*100;
   $(window).scroll(function() {
@@ -24,5 +27,10 @@ $(function() {
     $("#info-window").css({ "left": ($(this).offset().left-50) + "px", "top": ($(this).offset().top+$(this).height()+12)  + "px" }).delay(300).fadeIn(300);
   }).on("mouseout", ".event", function () {
     $("#info-window").remove();
+  });
+
+  $("#login-box").focus(function() {
+    console.log("...");
+    $("#password-box").parent("div").fadeIn();
   });
 });

@@ -28,8 +28,12 @@ else
         <a href="/"><div class="menulink">Location</div></a>
       </div>
       <div id="linkbar-right">
-        <a href="/"><div class="menulink">Home</div></a>
-        <a href="/"><div class="menulink">Location</div></a>
+        <div style="display: inline;">
+          Username: <input type="text" placeholder="username or email" id="login-box"/>
+          Password: <input type="password" placeholder="password" id="password-box"/>
+        </div>
+        <a href="/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
+        <a href="/"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
       </div>
   </div>
 </div>

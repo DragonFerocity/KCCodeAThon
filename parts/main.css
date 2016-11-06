@@ -227,6 +227,20 @@ a, a:hover, a:visited {
 }
 
 /********************************************/
+/* LOGIN PAGE STLYES                        */
+/********************************************/
+
+.log_head {
+  text-align: center;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.log_head h1 {
+  padding-top: 60px;
+}
+
+/********************************************/
 /* ORGANIZTIONAL PROFILE STYLES             */
 /********************************************/
 #organization-header {

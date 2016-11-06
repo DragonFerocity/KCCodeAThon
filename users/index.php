@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class = "row">
-        <div class = "col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-4">
+        <div class = "col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
           <h2>My Skills</h2>
         </div>
       </div>

@@ -275,6 +275,11 @@ input[type="password"]#password-box {
   margin: 0 auto;
 }
 
+#sub {
+  padding-top: 5px;
+  width: 60px;
+}
+
 /********************************************/
 /* ORGANIZTIONAL PROFILE STYLES             */
 /********************************************/

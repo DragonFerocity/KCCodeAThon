@@ -10,7 +10,8 @@
     <title>KC Code-A-Thon</title>
     <?php
     $color = "white";
-    include("../parts/header.php"); ?>
+    include "../parts/header.php";
+    ?>
   </head>
 
   <body>

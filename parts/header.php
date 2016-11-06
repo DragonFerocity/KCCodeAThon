@@ -16,9 +16,20 @@
 <script src="/parts/bootstrap.min.js"></script>
 
 <!-- HEADER LINKS -->
-
+<?php
+if ($color == "white") //If $color is set to white, this will make the menu-links bar (that is fixed to the top of the page) background white
+  echo "<div id=\"menubar-white\">";
+else
+  echo "<div id=\"menubar\">";
+?>
   <div id="linkbar">
-      <a href="/\"><div class="menulink">Home</div></a>
-      <a href="/"><div class="menulink">Location</div></a>
+      <div id="linkbar-left">
+        <a href="/"><div class="menulink">Home</div></a>
+        <a href="/"><div class="menulink">Location</div></a>
+      </div>
+      <div id="linkbar-right">
+        <a href="/"><div class="menulink">Home</div></a>
+        <a href="/"><div class="menulink">Location</div></a>
+      </div>
   </div>
 </div>

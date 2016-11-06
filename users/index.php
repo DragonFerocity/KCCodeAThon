@@ -8,11 +8,7 @@
   <section id="content">
     <div class="top"></div>
     <div class="container">
-      <div class="row" id="left">
-        <div class="col-md-4 col-xs-4">
-          <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" 
-          class = "img-square profile_pic" alt = "dat boi" id="pic">
-        </div>
+      <div class="row">
         <div class = "col-md-offset-10 col-md-2 col-xs-offset-10 col-xs-2">
           <a href = "user_edit_profile.html" type = "button" class = "btn btn-primary">
             <span class = "glyphicon glyphicon-pencil"></span>
@@ -49,7 +45,12 @@
         <div class = "col-md-2 col-xs-2 static_list"><p>Email:</p></div>
         <div class = "col-md-2 col-xs-2"><p>datboi@meme.edu</p></div>
       </div>
-
+      <div class="row">
+        <div class="col-md-4 col-xs-4">
+          <img src = "https://ih1.redbubble.net/image.214499180.8793/flat,800x800,075,f.jpg" 
+          class = "img-square profile_pic" alt = "dat boi" id="pic">
+        </div>
+      </div>
       <div class = "row">
         <div class = "col-md-offset-4 col-md-8 col-xs-offset-4 col-xs-8">
           <h2>My Availability</h2>

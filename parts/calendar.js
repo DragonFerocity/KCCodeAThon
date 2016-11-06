@@ -124,6 +124,11 @@ function changedate(relative, month, year) {
 			cMonth = 0;
 			cYear++;
 		}
+		else if (cMonth == -1)
+		{
+			cMonth = 11;
+			cYear--;
+		}
 	}
 	else
 	{

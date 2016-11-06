@@ -95,6 +95,10 @@ tr:nth-child(odd):hover td {
 	padding: 5px;
 }
 
+#calendarheader img {
+	width:40%
+}
+
 .eventdata {
 	font-family: sans-serif !important;
 	height: 12px;
@@ -142,4 +146,13 @@ tr:nth-child(odd):hover td {
 	font-size: large;
 	text-shadow: 2px 2px 1px rgba(100,100,0,.5);
 	width: 75%;
+}
+
+#nextmonth {
+	    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }

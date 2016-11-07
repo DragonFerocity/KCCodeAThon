@@ -90,13 +90,12 @@ function createCalendar(p_date)
 	currentDate = -1;
 	for (var rowNum = 0; rowNum < 7; rowNum++)
 	{
-		if (currentDate < lastDay)
-		{
-			$("#calendar").append("<tr class = 'calendarRow' id = 'row"+rowNum+"' />");
-			var newRow = "#row" + rowNum;
-			if (rowNum == 0)
-				$(newRow).addClass("firstRow");
-		}
+		$("#calendar").append("<tr class = 'calendarRow' id = 'row"+rowNum+"' />");
+		var newRow = "#row" + rowNum;
+		if (rowNum == 0)
+			$(newRow).addClass("firstRow");
+		if (currentDate > lastDay)
+			$("#row" + rowNum)[0].style.display = "none";
 
 		for (var columnNum = 0; columnNum < 7; columnNum++)
 		{

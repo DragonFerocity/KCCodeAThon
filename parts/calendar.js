@@ -37,13 +37,12 @@ function makeEvent()
 
 		if (parseInt(eYear) == cYear && parseInt(eMonth) - 1 == cMonth)
 		{
-			$("#cell" + eDate).append("<br>" + eName + "</br>");
-			console.log("alpha")
+			$("#cell" + eDate).append("<div>" + eName + "</div>");
 		}
 
 	}
 	else
-		alert("Please provide an event name and time!");
+		alert("Please provide an event name and complete time!");
 }
 
 function createEventInput()

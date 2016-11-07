@@ -72,20 +72,23 @@ function createCalendar(p_date)
 		cYear = cDate.getYear() + 1900;
 		cMonth = cDate.getMonth();
 	}
-	else {
-		/*console.log(p_date);
-		p_date = p_date.split("-");
-		cDate = new Date();
-		cMonth = parseInt(p_date[0])
-		cYear = parseInt(p_date[0]);*/
 
-	}
 	var firstDay = new Date(cYear.toString(), cMonth.toString(), "01").getDay();
 	$("#monthyear")[0].innerHTML = g_MONTHS[cMonth] + " " + cYear;
 
+	///Getting the last day of the month
+	var tmpMonth = cMonth + 1;
+	var tmpYear = cYear;
+	if (tmpMonth == 12) {
+		tmpMonth = 1;
+		tmpYear++;
+	} 
+	var lastDay = new Date(tmpYear.toString(), tmpMonth.toString(), "00")
+	var lastDay = lastDay.getDate();
+
 	//$("body").prepend("<div id = 'calendar' />")
 	currentDate = -1;
-	for (var rowNum = 0; rowNum < 5; rowNum++)
+	for (var rowNum = 0; rowNum < 6; rowNum++)
 	{
 		//console.log(rowNum)
 		$("#calendar").append("<tr class = 'calendarRow' id = 'row"+rowNum+"' />");
@@ -112,6 +115,9 @@ function createCalendar(p_date)
 					currentDate++;
 					info = currentDate;
 				}
+				if (info > lastDay)
+					info = "";
+
 				$(newRow).append("<td class = '"+newClass+"'><div class = 'dateholder'>"+info+"</div><div class = 'eventholder' id = 'cell"+currentDate+"'></div></td>");
 			}
 			

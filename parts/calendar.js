@@ -94,7 +94,7 @@ function createCalendar(p_date)
 		var newRow = "#row" + rowNum;
 		if (rowNum == 0)
 			$(newRow).addClass("firstRow");
-		if (currentDate > lastDay)
+		if (currentDate >= lastDay)
 			$("#row" + rowNum)[0].style.display = "none";
 
 		for (var columnNum = 0; columnNum < 7; columnNum++)

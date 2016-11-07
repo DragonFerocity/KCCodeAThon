@@ -19,7 +19,7 @@
       <div id="organization-header" style="background-image: url('../Pictures/MST.jpg')"></div>
 
       <div class="header-text" style="top: calc(100% - 100px - 48px);">
-        <h1>Missouri University of Science and Technology</h1>
+        <h1>Missouri S&amp;T</h1>
       </div>
 
       <div class="menu" style="top: calc(100% - 100px);">

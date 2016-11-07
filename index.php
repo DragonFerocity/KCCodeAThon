@@ -4,7 +4,7 @@
   <title>KC Code-A-Thon</title>
   <?php include("parts/header.php"); ?>
   <link rel="stylesheet" href="parts/calendar.css?3">
-  <script src="parts/calendar.js?3"></script>
+  <script src="parts/calendar.js?5"></script>
 </head>
 <body>
   <section id="content-top-margin">

@@ -19,12 +19,12 @@
     </div>
 
     <section class="log_in_info center-text">
-      <form>
-        <h3>Username:</h3>
-        <input type="text" name="username"><br>
+      <form id="login-form" action="login.php" method="post">
+        <h3>Email:</h3>
+        <input type="text" name="email" form="login-form"><br>
         <h3>Password:</h3>
-        <input type="text" name="password"><br>
-        <input type="submit" id="sub">
+        <input type="password" name="password" form="login-form"><br>
+        <input type="submit" id="sub" form="login-form">
       </form>
     </section>
   </body>

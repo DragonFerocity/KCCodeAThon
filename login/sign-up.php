@@ -34,7 +34,7 @@
           <table class="table-cell-default" style="margin: 0px auto;">
             <tr>
               <td>First Name:</td>
-              <td><input type="text" form="account-form" placeholder="John" name="first"/></td>
+              <td><input type="text" form="account-form" placeholder="John" name="firstV"/></td>
             </tr>
             <tr>
               <td>Last Name:</td>
@@ -42,7 +42,7 @@
             </tr>
             <tr>
               <td>Password:</td>
-              <td><input type="password" form="account-form" placeholder="Password" name="password"/></td>
+              <td><input type="password" form="account-form" placeholder="Password" name="passwordV"/></td>
             </tr>
             <tr>
               <td>Age:</td>
@@ -64,11 +64,11 @@
             </tr>
             <tr>
               <td>Phone Number:</td>
-              <td><input type="tel" form="account-form" placeholder="1234567890" name="phone" maxlength="10" max="9"/></td>
+              <td><input type="tel" form="account-form" placeholder="1234567890" name="phoneV" maxlength="10" max="9"/></td>
             </tr>
             <tr>
               <td>Email:</td>
-              <td><input type="email" form="account-form" placeholder="this.email@place.here" name="email"/></td>
+              <td><input type="email" form="account-form" placeholder="this.email@place.here" name="emailV"/></td>
             </tr>
           </table>
         <br/>
@@ -80,7 +80,11 @@
           <table class="table-cell-default" style="margin: 0px auto;">
             <tr>
               <td>Name:</td>
-              <td><input type="text" form="account-form" placeholder="Avila Gardens Inc." name="fname"/></td>
+              <td><input type="text" form="account-form" placeholder="Avila Gardens Inc." name="first"/></td>
+            </tr>
+            <tr>
+              <td>Password:</td>
+              <td><input type="password" form="account-form" placeholder="Password" name="passwordO"/></td>
             </tr>
             <tr>
               <td>Organization Area Code:</td>
@@ -88,7 +92,7 @@
             </tr>
             <tr>
               <td>Phone Number:</td>
-              <td><input type="tel" form="account-form" placeholder="1234567890" name="lname" maxlength="10" max="9"/></td>
+              <td><input type="tel" form="account-form" placeholder="1234567890" name="phoneO" maxlength="10" max="9"/></td>
             </tr>
             <tr>
               <td>Phone Number Ext:</td>
@@ -96,7 +100,7 @@
             </tr>
             <tr>
               <td>Email:</td>
-              <td><input type="email" form="account-form" placeholder="this.email@place.here" name="email"/></td>
+              <td><input type="email" form="account-form" placeholder="this.email@place.here" name="emailO"/></td>
             </tr>
           </table>
         <br/>

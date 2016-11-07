@@ -1,6 +1,15 @@
 <?php
   if (!isset($color)) //If the variable $color is not set, then set it.
     $color = "green";
+
+  $connection = new mysqli("localhost", "dragon34_kcuser", "p@ssw0rd", "dragon34_kc"); //Connect to a database
+  //                        Hostname,   username,           password,   database_name
+  if (isset($_COOKIE["email"])) {
+    $email = $_COOKIE["email"];
+    $result = $connection->query("SELECT Name FROM Volunteers WHERE Email=\"{$email}\"");
+    $rows = $result->fetch_assoc();
+    $name = $rows["Name"];
+  }
 ?>
 <!-- JQuery From Google -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -28,8 +37,13 @@ else
         <a href="/"><div class="menulink">Location</div></a>
       </div>
       <div id="linkbar-right">
-        <a href="/"><div class="menulink">Home</div></a>
-        <a href="/"><div class="menulink">Location</div></a>
-      </div>
+      <?php if (!isset($name)) { ?>
+        <a href="/login/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
+        <a href="/login/sign-up.php"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
+      <?php } ?>
+      <?php if (isset($name)) { ?>
+        <span style="font-size: 20px; font-family: 'raleway';">Hello <?php echo $name ?>!</span>
+        <a href="/users/"><div class="menulink"><span class="glyphicon glyphicon-user"></span> My Account</div></a>
+      <?php } ?>
   </div>
 </div>

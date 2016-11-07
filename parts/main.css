@@ -26,16 +26,16 @@ th {
   font-family: "Raleway";
   margin-bottom: 5px;
 }
-th.top-border {
+.top-border {
   border-top: 1px solid rgb(32, 32, 32);
 }
-th.right-border {
+.right-border {
   border-right: 1px solid rgb(32, 32, 32);
 }
-th.bottom-border {
+.bottom-border {
   border-bottom: 1px solid rgb(32, 32, 32);
 }
-th.left-border {
+.left-border {
   border-left: 1px solid rgb(32, 32, 32);
 }
 .table-outer {
@@ -180,6 +180,21 @@ a, a:hover, a:visited {
 	text-decoration: none;
   color: rgb(32, 32, 32);
   background-color: rgba(12, 199, 69, 1);
+}
+
+input[type="text"]#login-box {
+  height: 28px;
+  width: 200px;
+  padding: 2px 5px 2px 10px;
+  border: 1px solid rgb(32, 32, 32);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+input[type="password"]#password-box {
+  height: 28px;
+  width: 200px;
+  padding: 2px 5px 2px 10px;
+  border: 1px solid rgb(32, 32, 32);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /********************************************/

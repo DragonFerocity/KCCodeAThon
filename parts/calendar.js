@@ -88,14 +88,15 @@ function createCalendar(p_date)
 
 	//$("body").prepend("<div id = 'calendar' />")
 	currentDate = -1;
-	for (var rowNum = 0; rowNum < 6; rowNum++)
+	for (var rowNum = 0; rowNum < 7; rowNum++)
 	{
-		//console.log(rowNum)
-		$("#calendar").append("<tr class = 'calendarRow' id = 'row"+rowNum+"' />");
-		var newRow = "#row" + rowNum;
-		if (rowNum == 0)
-			$(newRow).addClass("firstRow");
-		//console.log(newRow);
+		if (currentDate < lastDay)
+		{
+			$("#calendar").append("<tr class = 'calendarRow' id = 'row"+rowNum+"' />");
+			var newRow = "#row" + rowNum;
+			if (rowNum == 0)
+				$(newRow).addClass("firstRow");
+		}
 
 		for (var columnNum = 0; columnNum < 7; columnNum++)
 		{

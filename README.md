@@ -12,3 +12,5 @@ Organizations can also create accounts like users.  Organization accounts will c
 events, information about the organization's cause, and a postboard for the organization and volunteers to communicate.  A private
 rating is also avaiable to the organization so the organization can get an idea of how impactful its events are and how volunteers
 feel the work conditions of their events are.
+
+Youtube Video: https://youtu.be/ZSxDXMlEMnk

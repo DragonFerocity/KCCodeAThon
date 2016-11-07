@@ -33,4 +33,10 @@ $(function() {
     console.log("...");
     $("#password-box").parent("div").fadeIn();
   });
+
+  $(".sign-out").click(function() {
+    $.get("../login/logout.php", function() {
+      location.href = "/";
+    });
+  });
 });

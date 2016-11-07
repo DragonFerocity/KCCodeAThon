@@ -15,7 +15,7 @@
 	-webkit-box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
 	-moz-box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
 	box-shadow: inset 10px 10px 46px -19px rgba(0,0,0,0.27);
-	table-layout: fixed;
+	table-layout: absolute;
 }
 
 .hc {
@@ -38,7 +38,7 @@
 	font-family: 'Arimo', sans-serif;
 	font-size: 18px;
 	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
-	border-left: 
+	border-left:
 }
 
 /*tr:hover td {
@@ -51,7 +51,7 @@
 tr:nth-child(odd) td {
   background:#EBEBEB;
 }
- 
+
 tr:nth-child(odd):hover td {
   background:#4E5066;
 }*/

@@ -32,18 +32,20 @@ else
   echo "<div id=\"menubar\">";
 ?>
   <div id="linkbar">
-      <div id="linkbar-left">
-        <a href="/"><div class="menulink">Home</div></a>
-        <a href="/"><div class="menulink">Location</div></a>
-      </div>
-      <div id="linkbar-right">
+    <div id="linkbar-left">
+      <a href="/"><div class="menulink">Home</div></a>
+      <a href="/"><div class="menulink">Location</div></a>
+    </div>
+    <div id="linkbar-right">
       <?php if (!isset($name)) { ?>
         <a href="/login/"><div class="menulink"><span class="glyphicon glyphicon-log-in"></span> Log In</div></a>
         <a href="/login/sign-up.php"><div class="menulink"><span class="glyphicon glyphicon-user"></span> Sign Up</div></a>
       <?php } ?>
       <?php if (isset($name)) { ?>
         <span style="font-size: 20px; font-family: 'raleway';">Hello <?php echo $name ?>!</span>
-        <a href="/users/"><div class="menulink"><span class="glyphicon glyphicon-user"></span> My Account</div></a>
+        <?php echo "<a href=\"/users/?" . $name . "\">"; ?><div class="menulink"><span class="glyphicon glyphicon-user"></span> My Account</div></a>
+        <div class="menulink sign-out" style="cursor: pointer;"><span class="glyphicon glyphicon-log-out"></span> Sign Out</div>
       <?php } ?>
+    </div>
   </div>
 </div>

@@ -10,6 +10,7 @@ html, body {
 	padding: 0;
   background-color: rgb(220, 220, 220);
   background-image: url("../Pictures/background.png?2");
+  overflow: auto !important;
 }
 
 input, button {
